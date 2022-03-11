@@ -28,6 +28,8 @@ public class ParkingSpotModel implements Serializable {
     @Column(nullable = false, length = 130)
     private String responsibleName;
     @Column(nullable = false, length = 30)
+    private String apartment;
+    @Column(nullable = false, length = 30)
     private String block;
 
     public UUID getId() {
@@ -94,6 +96,14 @@ public class ParkingSpotModel implements Serializable {
         this.responsibleName = responsibleName;
     }
 
+    public String getApartment() {
+        return apartment;
+    }
+
+    public void setApartment(String apartment) {
+        this.apartment = apartment;
+    }
+    
     public String getBlock() {
         return block;
     }

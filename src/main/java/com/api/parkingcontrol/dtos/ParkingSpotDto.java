@@ -5,22 +5,22 @@ import javax.validation.constraints.Size;
 
 public class ParkingSpotDto {
 
-//    @NotBlank
+    @NotBlank
     private String parkingSpotNumber;
-//    @NotBlank
-//    @Size(max = 7)
+    @NotBlank
+    @Size(max = 7)
     private String licensePlateCar;
-//    @NotBlank
+    @NotBlank
     private String brandCar;
-//    @NotBlank
+    @NotBlank
     private String modelCar;
-//    @NotBlank
+    @NotBlank
     private String colorCar;
-//    @NotBlank
+    @NotBlank
     private String responsibleName;
-//    @NotBlank
+    @NotBlank
     private String apartment;
-//    @NotBlank
+    @NotBlank
     private String block;
 
 
